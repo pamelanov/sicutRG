@@ -1,0 +1,141 @@
+/* CSS Document */
+body{
+    background-color:#FFFFFF;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#000000;
+}
+#utama{
+    margin:0 auto;
+    border:2px solid #000000;
+    width:1200px;
+    background-color:white;
+}
+#header{
+    font-weight: bold;
+    font-family:Orbitron;
+    font-size:40;
+    color:black;
+    height:50px;
+    background-color:white;
+    padding:40px ;
+    text-align: center;
+}
+#headeradmin{
+    font-family:Orbitron;
+    color:#1672ED;
+    height:50px;
+    background-color:#003377;
+    font-size:28;
+    text-align:center;
+    padding:33px 5px 8px;
+}
+#menu {
+    background-color:black;
+    height:43px; 
+    float:left;
+    width:1200px;
+    border:1px solid #000000;
+    border-left:0px;
+    border-right:0px;
+}
+#menu ul {
+    font-family: Orbitron;
+    font-size: 15;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#menu ul a {
+    display: block;
+    text-decoration: none;
+    padding: 13px 13px 12px 13px;
+    font-weight: bold;
+    white-space: nowrap;
+    color:#dedede;
+    float: left;
+}
+#menu ul li{
+    display:inline
+}
+#menu ul a:hover {
+    color:gray;
+}
+#menu ul a.active { 
+    background-image :url(../images/hober.gif);  
+    color:#1672ED;
+}
+#menulogin{
+    float:right;
+}
+
+#sidebar{
+    width:220px;
+    float:left;
+    margin:8px;
+}
+#sidebaradmin{
+    width:220px;
+    float:left;
+    margin:8px;
+}
+#bg_sidebar{
+    background-color: black;
+    font-size: 20;
+    color:white;
+    font-weight:bold;
+    padding:14px;
+    padding-top:10px;
+    border:0px solid #000000;
+}
+#isi_sidebar{
+    background-color:#D2F2E2;
+    text-align:center;
+    padding:8px;
+    border:2px solid #000000;
+    margin-bottom:10px;
+    padding-top:8px;
+    padding-bottom:10px;
+    color:#000000;
+}
+#konten{
+    background-color:white;
+    border:2px solid black;
+    width:920px;
+    float:right;
+    margin:12px;
+    padding:8px;
+}
+
+#isi_konten{
+    background-color:#EDEDED;
+    padding:8px;
+    border:2px solid #000000;
+    line-height:18px;
+    margin-bottom:10px;
+    padding-top:4px;
+    padding-bottom:11px;
+}
+.clear{
+    clear:both;
+    float:none;
+}
+#footer{
+    background-color:white;
+    padding:5px;
+    border:2px solid #000000;
+    border-left:0px;
+    border-right:0px;
+    height:40px;
+    font-size:12px;
+    color:black;
+    padding-top:24px;
+}
+#table { width:90%; font: 11px Arial Helvetica, sans-serif;
+         color: #000; border-collapse: collapse; border-spacing: 0;  border:2px solid #333;} 
+#table th { color: #fff; background-color:#555; font-size:15px; padding:2px 5px; border:2px solid #333;} 
+#table td { font-size: 14px; text-align: center; padding: 2px 5px; background-color: #FFFF99;  border:1px solid #333;} 
+#table tr:nth-child(odd) td { background-color: #CCE9FD;  border:1px solid #333;}
+
+
+
